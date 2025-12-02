@@ -4,7 +4,15 @@ import { Link } from 'react-router-dom';
 
 const TopNav: React.FC = () => {
   return (
-    <Navbar bg="white" expand="lg" className="shadow-sm">
+    <Navbar
+      bg="white"
+      expand="lg"
+      className="shadow-sm"
+      style={{
+        position: "relative",
+        zIndex: 1,
+      }}
+    >
       <Container>
         <Navbar.Brand as={Link} to="/">Tailoring</Navbar.Brand>
         <Navbar.Toggle aria-controls="main-nav" />
