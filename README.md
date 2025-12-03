@@ -1,3 +1,3 @@
-# Tailoring Frontend - Option B (Enhanced)
+# Tailoring Frontend 
 
 Run `npm install` then `npm start`.
